@@ -1,0 +1,25 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "Simple npm package that calculate 2 numbers",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitogd/calc.git"
+  },
+  "keywords": [
+    "calculator",
+    "math",
+    "npm",
+    "nodejs"
+  ],
+  "author": "vitogd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitogd/calc/issues"
+  },
+  "homepage": "https://github.com/vitogd/calc#readme"
+}
