@@ -22,7 +22,8 @@
 </h4>
 
 <p align="center">
-<a href="#question-how-to-use?">
+<a href="#question-how-to-use?">How to use</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technology">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
