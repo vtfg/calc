@@ -9,13 +9,13 @@ using v8::Object;
 using v8::String;
 using v8::Value;
 
-void Subtraction(const v8::FunctionCallbackInfo<v8::Value>& args) {
-  v8::Isolate* isolate = args.GetIsolate();
+void Subtraction(const FunctionCallbackInfo<Value>& args) {
+  Isolate* isolate = args.GetIsolate();
   
   if (args.Length() < 2) {
     isolate->ThrowException(Exception::TypeError(
         String::NewFromUtf8(isolate, 
-        "You need to pass 2 arguments")));
+        "You need to pass 2 arguments or more")));
 
     return;
   }
@@ -29,7 +29,7 @@ void Subtraction(const v8::FunctionCallbackInfo<v8::Value>& args) {
   }
 
   float subtraction = args[0].As<Number>()->Value();
-  
+
   for (int i = 1; i < args.Length(); i++) {
     subtraction -= args[i].As<Number>()->Value();
   }

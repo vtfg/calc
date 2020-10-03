@@ -1,7 +1,7 @@
 {
   "name": "calc",
   "version": "1.0.0",
-  "description": "Simple npm package that calculate 2 numbers",
+  "description": "Simple npm package that calculates 2 or more numbers",
   "main": "tests/main.js",
   "scripts": {
     "test": "node tests/main.js",
