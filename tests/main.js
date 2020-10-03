@@ -8,3 +8,6 @@ console.log("Sub: " + calc.sub(5, 2));
 
 // Multiply
 console.log("Mult: " + calc.mult(5, 5));
+
+// Division
+console.log("Div: ", calc.div(10, 5));
