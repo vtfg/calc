@@ -9,7 +9,7 @@ using v8::Object;
 using v8::String;
 using v8::Value;
 
-void Sum(const v8::FunctionCallbackInfo<v8::Value>& args) {
+void Subtraction(const v8::FunctionCallbackInfo<v8::Value>& args) {
   v8::Isolate* isolate = args.GetIsolate();
   
   if (args.Length() < 2) {
@@ -28,12 +28,13 @@ void Sum(const v8::FunctionCallbackInfo<v8::Value>& args) {
     return;
   }
 
-  float sum = 0;
-  for (int i = 0; i < args.Length(); i++) {
-    sum += args[i].As<Number>()->Value();
+  float subtraction = args[0].As<Number>()->Value();
+  
+  for (int i = 1; i < args.Length(); i++) {
+    subtraction -= args[i].As<Number>()->Value();
   }
 
-  Local<Number> result = Number::New(isolate, sum);
+  Local<Number> result = Number::New(isolate, subtraction);
 
   args.GetReturnValue().Set(result);
 }
