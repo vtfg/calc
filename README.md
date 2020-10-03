@@ -32,13 +32,13 @@
 
 ### Installation: 
 ```bash
-$ npm install calc
+$ npm install @vitogd/calc
 ```
 
 ### Declaration on javascript:
 
 ```js
-const calc = require('calc');
+const calc = require('@vitogd/calc');
 ```
 
 ### Usage:
