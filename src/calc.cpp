@@ -8,8 +8,7 @@
 #include "functions/division.cpp"
 
 namespace calc {
-  using v8::Local;
-  using v8::Object;
+  using namespace v8;
 
   void Initialize(Local<Object> exports) {
       NODE_SET_METHOD(exports, "sum", Sum);
