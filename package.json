@@ -1,5 +1,5 @@
 {
-  "name": "calc",
+  "name": "@vitogd/calc",
   "version": "1.0.0",
   "description": "Simple npm package that calculates 2 or more numbers",
   "main": "tests/main.js",

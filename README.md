@@ -22,9 +22,35 @@
 </h4>
 
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#question-how-to-use?">
+  <a href="#rocket-technology">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
+
+## :question: How to use?
+
+### Installation: 
+```bash
+$ npm install calc
+```
+
+### Declaration on javascript:
+
+```js
+const calc = require('calc');
+```
+
+### Usage:
+
+```js
+const sum = calc.sum(2, 2); // 4
+
+const sub = calc.sub(4, 2); // 2
+
+const mult = calc.mult(3, 2); // 6
+
+const div = calc.div(6, 2); // 3
+```
 
 ## :rocket: Technology
 
@@ -34,6 +60,6 @@ This project was developed as a test, i had curiosity on how to make a npm packa
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/bancointer/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/vitogd/calc/blob/master/LICENSE) for more information.
 
 ---
