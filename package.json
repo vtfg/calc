@@ -1,7 +1,7 @@
 {
   "name": "@vitogd/calc",
-  "version": "1.0.0",
-  "description": "Simple npm package that calculates 2 or more numbers",
+  "version": "1.1.0",
+  "description": "Simple npm package that calculates two numbers",
   "main": "index.js",
   "scripts": {
     "test": "node tests/main.js",

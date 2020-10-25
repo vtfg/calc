@@ -22,15 +22,18 @@
 </h4>
 
 <p align="center">
-<a href="#question-how-to-use?">How to use</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#question-how-to-use?">How to use</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#building_construction-building">Building</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technology">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
 ## :question: How to use?
 
-### Installation: 
+### Installation:
+
 ```bash
 $ npm install @vitogd/calc
 ```
@@ -38,7 +41,7 @@ $ npm install @vitogd/calc
 ### Declaration on javascript:
 
 ```js
-const calc = require('@vitogd/calc');
+const calc = require("@vitogd/calc");
 ```
 
 ### Usage:
@@ -53,11 +56,27 @@ const mult = calc.mult(3, 2); // 6
 const div = calc.div(6, 2); // 3
 ```
 
+## :building_construction: Building
+
+```bash
+# clone the repository
+$ git clone https://github.com/vitogd/calc.git
+
+# enter on directory
+$ cd calc
+
+# install node.js native addon build tool
+$ npm install -g node-gyp
+
+# build
+$ npm run build # or node-gyp build
+```
+
 ## :rocket: Technology
 
 This project was developed as a test, i had curiosity on how to make a npm package and there it is.
 
-- [Node.js C++ addons](https://nodejs.org/api/addons.html)
+- If you want to know more about C++ addons: [Node.js C++ addons](https://nodejs.org/api/addons.html)
 
 ## :memo: License
 
