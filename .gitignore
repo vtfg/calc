@@ -1,0 +1,6 @@
+# Build directory, will be used later on deploying
+build/
+
+node_modules/
+
+.vscode/
