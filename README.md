@@ -18,7 +18,7 @@
 </p>
 
 <h4 align="center">
-  A npm package that calculates 2 or more numbers. 
+  A npm package that calculates two numbers. 
 </h4>
 
 <p align="center">
